@@ -1,0 +1,70 @@
+.link {
+    text-decoration:none;
+    color: #6a727b;
+}
+.tp-img {
+    height: 5rem;
+}
+.zoom {
+    display: inline-block;
+    transform-origin: center center;
+    animation: normalZoomEffect 0.95s forwards;
+}
+.zoom:hover {
+    animation: hoverZoomEffect 0.45s forwards;
+}
+@keyframes hoverZoomEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+@keyframes normalZoomEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.125);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+.slink {
+    color: #ffffff;
+}
+.slink:hover {
+    color: #9a88a8;
+}
+/*
+.zoom {
+    transition: transform .4.5s;
+}
+.zoom:hover {
+    transform: scale(1.125);
+}
+*/
+/*.zoom {
+    display: inline-block;
+    transition: transform 0.45s;
+}
+.zoom:hover {
+    animation: zoomEffect 0.80s forwards;
+}
+@keyframes zoomEffect {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+*/
