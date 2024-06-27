@@ -1,0 +1,10 @@
+.link {
+    text-decoration:none
+}
+
+.zoom {
+    transition: transform .4.5s;
+}
+.zoom:hover {
+    transform: scale(1.125);
+}
